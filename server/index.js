@@ -4,7 +4,7 @@ const express = require('express'),
       session = require('express-session'),
       config = require('./config'),
       app = express(),
-      port = 3000;
+      port = 3060;
 
 
 // ========== MIDDLEWARE ========== //

@@ -1,6 +1,8 @@
 body {
     text-align: center;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    /* box sizing border box makes it so things like height and width apply to the whole box model
+    (margin, padding, border, content etc) instead of just the content.  */
     font-family: 'Alegreya', serif;
     display: flex;
     flex-direction: column;
@@ -25,7 +27,7 @@ body video {
     position: bottom;
 
 }
-button > video-footer{
+button > section{
     height: 20px
 }
 
