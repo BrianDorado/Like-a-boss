@@ -45,7 +45,12 @@ section + strong {
 }
 img{
     float: right;  
+     transition: width 1s;
      
+}
+img:hover{
+    width: 200px;
+    
 }
 .bottom-section{
     height: 175px;
@@ -73,4 +78,17 @@ p:hover {
 }
 .nth-child:nth-child(2){
     background-color: aquamarine
+}
+strong {
+    transform: scale(1,2);
+    -webkit-animation: fadein 2s linear 1s forwards;
+}
+@keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@media (max-width: 700px) {
+    .nth-child:nth-child(2){
+        background-color: white;    
+    }
 }
